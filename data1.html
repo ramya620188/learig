@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<tale>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 2px solid rgb(253, 203, 128);
+        border-collapse: var();
+
+    }
+
+    th,
+    td {
+        background-color: rgb(250, 249, 252);
+    }
+</style>
+
+<body style="background-color:azure">
+
+    <table>
+
+        <tr>
+            <th><label for="name">Name</label></th>
+            <th><input type="text" id="name" placeholder="enter username" /></th>
+        </tr>
+        <tr>
+            <th><label for="password">Password</label></th>
+            <th><input type="password" id="password" placeholder="enter strong password" /></th>
+        </tr>
+        <tr>
+            <th><label for="email">Email</label></th>
+            <th><input type="email" id="email" placeholder="enter email address" /></th>
+        </tr>
+        <tr>
+            <th><label for="number">phone number</label></th>
+            <th><input type="number" id="number" placeholder="enter mobile number" /></th>
+        </tr>
+        <tr>
+            <th><label for="number">age</label></th>
+            <th><input type="number" id="number" placeholder="enter age" /></th>
+        </tr>
+        <tr>
+            <th>gender</th><br>
+            <th><label for="radio">male</label>
+                <input type="radio" id="radio" name="gender" />
+                <label for="radio">female</label>
+                <input type="radio" id="radio" name="gender" />
+            </th>
+        </tr>
+        <tr>
+
+            <th>
+                <label for="countries">select</label>
+            </th>
+            <th><select name="country" id="countries">
+
+
+                    <option>select</option>
+                    <option>us</option>
+                    <option>india</option>
+                    <option>russia</option>
+                </select></th>
+
+
+
+
+        </tr>
+        <tr>
+            <th>
+                <label for="games">hobbies</label>
+            </th>
+            <th><select name="hobbies" id="games" multiple>
+                    <option>select</option>
+                    <optgroup label="indoor games">
+                        <option>carroms</option>
+                        <option>chess</option>
+                    </optgroup>
+                    <optgroup label="outdoor games">
+                        <option>cricket</option>
+                        <option>shattle</option>
+                    </optgroup>>
+
+                </select>
+            </th>
+        </tr>
+        <tr>
+
+            <th><label for="adress">adress</label></th>
+            <th><input type="textarea" id="adress" placeholder="enter adress" /></th>
+        </tr>
+        <tr>
+            <th><label for="date">dob</label></th>
+            <th><input type="date" id="date" /></th>
+        </tr>
+        <tr>
+            <th><label for="color">color</label></th>
+            <th><input type="color" id="color" /></th>
+        </tr>
+
+
+    </table>
+    <label for="terms">accept terms and conditions</label>
+    <input type="checkbox" id="terms" /><br>
+    <input type="submit" value="submit">
+</body>
+
+</html>
